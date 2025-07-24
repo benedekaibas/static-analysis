@@ -1,6 +1,6 @@
 # 🧠 Static Analysis Toolkit in C++
 
-This project is a personal learning journey into static analysis using C++. The goal is to better understand how compilers, analyzers, and developer tools inspect source code without executing it. Along the way, I'll be building simple and more complex static analysis tools from scratch, exploring topics like dataflow analysis, control flow graphs, and abstract interpretation.
+This project is a personal learning journey into static analysis using C++. I'm working to get a deeper understanding of how compilers, static analyzers work. As part of that, I'll be building both simple and more advanced static analysis tools from the ground up, diving into concepts like dataflow analysis, control flow graphs, and abstract interpretation along the way.
 
 ## ✨ Motivation
 
