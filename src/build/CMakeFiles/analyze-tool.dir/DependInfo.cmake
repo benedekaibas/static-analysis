@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/benedek-kaibas/Documents/static-analysis/src/computer-science/detect_unused_var.cpp" "CMakeFiles/analyze-tool.dir/computer-science/detect_unused_var.cpp.o" "gcc" "CMakeFiles/analyze-tool.dir/computer-science/detect_unused_var.cpp.o.d"
+  "/home/benedek-kaibas/Documents/static-analysis/src/computer-science/test.cpp" "CMakeFiles/analyze-tool.dir/computer-science/test.cpp.o" "gcc" "CMakeFiles/analyze-tool.dir/computer-science/test.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

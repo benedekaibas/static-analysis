@@ -1,5 +1,6 @@
 #include <iostream>
 #include "clang/AST/DeclCXX.h"
+#include "clang/AST/DeclFriend.h"
 
 class ObjectClass {
 private:
@@ -7,7 +8,7 @@ private:
 protected:
   int protectedData;
 public:
-    ObjectClass() : privateData(), protectedData() {}
+    ObjectClass() : privateData(0), protectedData() {}
 
     friend class FriendClass;
 };
@@ -19,11 +20,14 @@ public:
     obj.protectedData = 200;
 
     std::cout << obj.privateData;
+    std::cout << obj.protectedData;
   }
 
 };
 
 int main(){
- FriendClass obj;
- obj.getAccessToObjectClass();
+  ObjectClass obj_class;
+  FriendClass friend_class;
+  
+  friend_class.getAccessToObjectClass(obj_class);
 }

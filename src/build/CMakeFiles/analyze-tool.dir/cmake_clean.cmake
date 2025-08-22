@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/analyze-tool.dir/computer-science/detect_unused_var.cpp.o"
   "CMakeFiles/analyze-tool.dir/computer-science/detect_unused_var.cpp.o.d"
+  "CMakeFiles/analyze-tool.dir/computer-science/test.cpp.o"
+  "CMakeFiles/analyze-tool.dir/computer-science/test.cpp.o.d"
   "analyze-tool"
   "analyze-tool.pdb"
 )

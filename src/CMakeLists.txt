@@ -15,6 +15,7 @@ include_directories(SYSTEM
 
 add_executable(analyze-tool
   /home/benedek-kaibas/Documents/static-analysis/src/computer-science/detect_unused_var.cpp
+  /home/benedek-kaibas/Documents/static-analysis/src/computer-science/test.cpp
 )
 
 llvm_map_components_to_libnames(

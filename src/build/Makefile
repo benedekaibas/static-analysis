@@ -218,6 +218,30 @@ computer-science/detect_unused_var.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze-tool.dir/build.make CMakeFiles/analyze-tool.dir/computer-science/detect_unused_var.cpp.s
 .PHONY : computer-science/detect_unused_var.cpp.s
 
+computer-science/test.o: computer-science/test.cpp.o
+.PHONY : computer-science/test.o
+
+# target to build an object file
+computer-science/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze-tool.dir/build.make CMakeFiles/analyze-tool.dir/computer-science/test.cpp.o
+.PHONY : computer-science/test.cpp.o
+
+computer-science/test.i: computer-science/test.cpp.i
+.PHONY : computer-science/test.i
+
+# target to preprocess a source file
+computer-science/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze-tool.dir/build.make CMakeFiles/analyze-tool.dir/computer-science/test.cpp.i
+.PHONY : computer-science/test.cpp.i
+
+computer-science/test.s: computer-science/test.cpp.s
+.PHONY : computer-science/test.s
+
+# target to generate assembly for a file
+computer-science/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze-tool.dir/build.make CMakeFiles/analyze-tool.dir/computer-science/test.cpp.s
+.PHONY : computer-science/test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,6 +259,9 @@ help:
 	@echo "... computer-science/detect_unused_var.o"
 	@echo "... computer-science/detect_unused_var.i"
 	@echo "... computer-science/detect_unused_var.s"
+	@echo "... computer-science/test.o"
+	@echo "... computer-science/test.i"
+	@echo "... computer-science/test.s"
 .PHONY : help
 
 

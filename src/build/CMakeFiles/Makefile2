@@ -216,12 +216,12 @@ CMakeFiles/clang-tablegen-targets.dir/clean:
 CMakeFiles/analyze-tool.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze-tool.dir/build.make CMakeFiles/analyze-tool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze-tool.dir/build.make CMakeFiles/analyze-tool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles --progress-num=1,2 "Built target analyze-tool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles --progress-num=1,2,3 "Built target analyze-tool"
 .PHONY : CMakeFiles/analyze-tool.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/analyze-tool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/analyze-tool.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/analyze-tool.dir/rule
