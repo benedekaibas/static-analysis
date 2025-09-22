@@ -1,8 +1,0 @@
-/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles/intrinsics_gen.dir
-/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles/omp_gen.dir
-/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles/acc_gen.dir
-/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles/RISCVTargetParserTableGen.dir
-/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles/clang-tablegen-targets.dir
-/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles/analyze-tool.dir
-/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles/edit_cache.dir
-/home/benedek-kaibas/Documents/static-analysis/src/build/CMakeFiles/rebuild_cache.dir
